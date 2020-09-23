@@ -6,7 +6,7 @@
 - The API is finished, but you can contribute if you want to boost the performance or change the query to the app.
 > You can join our discord server by PM-ing RonanHansel#0059 or BeachThanos#0493
 
-## [Kepler App](https://www.github.com/ronanhansel/kepler-api) 🪐
+## [Kepler App](https://www.github.com/gumbarros/kepler) 🪐
 > The delightful app that consumes the API to display the data
 
 ## Data & TAP Credits - [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) 🚀
