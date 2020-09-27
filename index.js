@@ -2,10 +2,10 @@ const express = require("express");
 const app = express();
 const https = require('https');
 const csv = require('csvtojson');
-const fs = require('fs');
- 
-const url = 'https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,disc_year,pl_orbper,pl_radj,pl_dens,st_teff,st_rad,st_mass,st_age,sy_kmag+from+pscomppars+where+pl_controv_flag=0&format=csv'
+
+const url = 'https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,disc_year,pl_orbper,pl_radj,pl_dens,st_teff,st_rad,st_mass,st_age,sy_bmag,sy_vmag+from+pscomppars+where+pl_controv_flag=0&format=csv'
 const port = process.env.PORT || 3000
+
 //Entrypoint of the API
 app.get("/", function(req, res){
 
